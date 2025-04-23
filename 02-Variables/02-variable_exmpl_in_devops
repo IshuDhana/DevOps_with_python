@@ -1,0 +1,22 @@
+# Define configuration variables for a web server
+server_name = "my_server"
+port = 80
+is_http_enabled = True
+max_connections = 1000
+ec2_instance_name = "my_first_ec2_instance"
+print(ec2_instance_name)
+
+# Print the configuration
+print(f"server_name: {server_name}")
+print(f"port: {port}")
+print(f"is_http_enabled: {is_http_enabled}")
+print(f"max_connections: {max_connections}")
+
+# Update configuration values
+port = 443
+is_https_enabled = False
+
+# Print the updated configuration
+print(f"Updated Port: {port}")
+print(f"Updated HTTPS Enabled: {is_https_enabled}")
+
