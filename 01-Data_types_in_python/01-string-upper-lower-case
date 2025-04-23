@@ -1,0 +1,5 @@
+statement = "DevOps with Python"
+uppercase = statement.upper()
+lowercase = statement.lower()
+print ("String in full caps:", uppercase)
+print ("String in full small:", lowercase)
